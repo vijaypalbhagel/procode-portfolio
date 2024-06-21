@@ -1,12 +1,7 @@
 
-.procode{
-    border: 2px solid red;
-    padding: 5px;
-   
-}
 .main-container{
     border: 2px solid green;
-    padding: 40px;
+   
     background-color: black;
     color: white;
 }

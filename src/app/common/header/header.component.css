@@ -1,11 +1,8 @@
-p{
-    border: 2px solid palevioletred;
-    padding: 20px;
-}
+
 img{
-    border-radius: 100px;
-    width: 50px;
-    height: 40px;
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -26,11 +23,13 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+   
 }
 
 .logo img {
-    height: 50px;
+    /* height: 50px; */
     margin-right: 5px;
+    margin-top: 20px;
 }
 
 .nav-list {
@@ -47,12 +46,20 @@ header {
 }
 
 .nav-list a {
-    color: white;
+    
     text-decoration: none;
-    font-size: 18px;
+    font-size: 10px;
+    color: rgba(238, 235, 235, 0.792);
+    
 }
-
+.nav-list a:hover {
+    color: white;
+  }
 
 .logo{
     display: flex;
+}
+h5{
+    color: rgba(255, 251, 251, 0.792);
+    font-size: 15px;
 }
