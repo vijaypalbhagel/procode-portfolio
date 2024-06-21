@@ -2,3 +2,57 @@ p{
     border: 2px solid palevioletred;
     padding: 20px;
 }
+img{
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.logo{
+    display: flex;
+}
