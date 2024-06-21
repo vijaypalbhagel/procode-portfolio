@@ -63,3 +63,12 @@ h5{
     color: rgba(255, 251, 251, 0.792);
     font-size: 15px;
 }
+.icons{
+}
+.buy-item{
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
