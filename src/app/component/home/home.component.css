@@ -18,3 +18,6 @@ background: var(--background-color-1);
     height: 400px;
     width: 150px;
 }
+.main-content{
+  padding: 20px;  
+}

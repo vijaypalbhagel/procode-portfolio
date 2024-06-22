@@ -15,8 +15,19 @@ import { BlogComponent } from './component/blog/blog.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,FooterComponent,HeaderComponent,
-  HomeComponent,ResumeComponent,PricingComponent,PortfolioComponent,FeaturesComponent,ContactComponent,ClientsComponent,BlogComponent],
+  imports: [RouterOutlet,
+    FooterComponent,
+    HeaderComponent,
+
+  HomeComponent,
+  ResumeComponent,
+  PricingComponent,
+  PortfolioComponent,
+  FeaturesComponent,
+  ContactComponent,
+  ClientsComponent,
+  BlogComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

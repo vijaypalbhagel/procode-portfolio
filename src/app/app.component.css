@@ -6,6 +6,23 @@
     color: white;
 }
 .container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 40px;
+}
+
+/* @media (max-width: 600px) and (min-width: 600px) {
+    .main-container{   
+      flex-direction: column;
+      color: red;
+      background-color: red;
+    }
+  } */
+
+
+  @media only screen and  (max-width: 600px) {
+    .main-container{  
+      background-color: lightblue;
+      flex-direction: column;
+      /* color: red; */
+    }
 }
