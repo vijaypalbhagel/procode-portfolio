@@ -24,8 +24,11 @@ export class HeaderComponent {
   }
   showNav(event:any){
     event.preventDefault()
-    document.getElementById('nav_link')?.style.display='block'
+   
+    const navLink = document.getElementById('nav_link');
+    navLink.classList.toggle('show');
 
   }
+
 
 }
