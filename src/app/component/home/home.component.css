@@ -26,6 +26,7 @@
   color: #c4cfde;
   font-family: "Montserrat", sans-serif;;
   margin-top: 80px;
+  width: 522px;
 }
  p{
   letter-spacing: 3px;
@@ -58,4 +59,21 @@ h1{
 }
 h3{
   margin-left: 17px;
+}
+@media (max-width: 850px) {
+  .main-content{display: flex;
+    flex-direction: column-reverse;}
+}
+@media (max-width: 600px){
+  .home-content{
+    width: 473px;
+    padding-left: 30px;
+    padding-right: 92px;
+    color: #c4cfde;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 80px;
+    color: black;
+    margin-left: 95px;
+  }
+
 }
