@@ -44,7 +44,11 @@ nav {
 }
 
 #nav_link li {
-  margin: 10px 14px;
+  padding: 10px 14px;
+
+}
+#nav_link li:hover{
+  background-color: #42383882;
 }
 #nav_link li a{
   margin: .5rem 1rem;
@@ -52,6 +56,13 @@ nav {
   color: #c4cfde;
   font-size: 13px;
   font-family: "Montserrat", sans-serif;;
+  cursor: pointer;
+}
+
+#nav_link li a:hover{
+  color: white;
+
+  
 }
 
 @media (max-width: 1150px) {

@@ -16,8 +16,30 @@ background: var(--background-color-1);
 }
 .homeimg-content img{
     height: 400px;
-    width: 150px;
+    width: 250px;
+}
+.homeimg-content{
+  padding: 0px 100px;
 }
 .main-content{
   padding: 20px;  
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin-left: -30px;
+    margin-right: -30px; */
+    align-items: center !important;
+    border: 2px solid red;
+    margin: 60px 130px;
+
+}
+.home-content{
+  padding-left: 30px;
+  padding-right: 92px;
+}
+.skills-icons{
+  display: flex;
+}
+.skillon-content{
+  margin: auto;
 }

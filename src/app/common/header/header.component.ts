@@ -9,19 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   myTopnav:any=''
-  myFunction(event:any){
-    event.preventDefault()
-   
-    let x= document.getElementById("myTopnav");
-    if( x && x.className =="header-right"){
-      x.className += " responsive";
-    }else {
-      if (x){
-        x.className = "header-right";
-      }
-       
-    }
-  }
+  
   showNav(event:any){
     event.preventDefault()
    
