@@ -12,6 +12,7 @@
   box-sizing: border-box;
   padding: 0 65px;
   height: 90px;
+  position: relative;
 }
 
 .logo {
@@ -27,7 +28,7 @@
 }
 
 nav {
-  position: relative;
+  
 }
 
 .fa-bars {
@@ -45,6 +46,12 @@ nav {
 
 #nav_link li {
   padding: 10px 14px;
+
+}
+.nav-header{
+  display: none;
+  display: flex;
+  justify-content: space-between;
 
 }
 #nav_link li:hover{
@@ -65,6 +72,33 @@ nav {
   
 }
 
+i{
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.list-content{
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.nav-header{
+  display: none;
+}
+p{
+  display: none;
+}
+.skills-icons{
+  display: none;
+}
+.skill-content{
+  padding: 80px 0px;
+  display: none;
+}
+h5{
+  border-top: 1px solid #c4cfde;
+  margin-top: 5px;
+}
 @media (max-width: 1150px) {
   .fa-bars {
       display: block;
@@ -79,9 +113,67 @@ nav {
   }
   #nav_link li {
       padding: 10px 0;
-      text-align: center;
+      text-align: left;
   }
   #nav_link.show {
       display: flex;
+      position: absolute;
+  top: 1px;
+  /* right: 0; */
+  width: 250px;
+  height:auto;
+  /* border: 3px solid #73AD21; */
+  left: 0;
   }
+  .nav-header{
+    display: block;
+    display: flex;
+
+  }
+  
+  p{
+    margin: 15px 5px;
+    font-style: inherit;
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      color: #c4cfde;
+      display: block;
+      border-bottom: 1px solid #c4cfde;
+      padding-bottom: 20px;
+      /* letter-spacing: 1px; */
+  }
+  .fa-remove{
+    margin: 5px;
+        background-color: #c4cfde;
+        padding: 15px;
+        border-radius: 50%;
+        margin-top: 12px;
+        /* width: 40px; */
+    }
+    .logos{
+      margin: 5px;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: bisque;
+      width: 46px;
+      height: 54px;
+    }
+    .skills-icons{
+      display: flex;
+      /* margin-top: 80px; */
+      display: block;
+    }
+    .skills-icons img{
+      background-color: #212428;
+      padding: 16px 16px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      width: 30px;
+      height: 30px;
+      margin-top: 0px;
+      
+    }
+   
+    .skill-content{
+      display: block;
+    }
 }
