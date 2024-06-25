@@ -12,7 +12,6 @@
   box-sizing: border-box;
   padding: 0 65px;
   height: 90px;
-  position: relative;
 }
 
 .logo {
@@ -35,6 +34,7 @@ nav {
   display: none;
   font-size: 24px;
   cursor: pointer;
+  backdrop-filter: blur(100%);
 }
 
 #nav_link {
@@ -97,7 +97,9 @@ p{
 }
 h5{
   border-top: 1px solid #c4cfde;
-  margin-top: 5px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  padding-left: 10px;
 }
 @media (max-width: 1150px) {
   .fa-bars {
@@ -160,6 +162,7 @@ h5{
     }
     .skills-icons{
       display: flex;
+      justify-content: space-between;
       /* margin-top: 80px; */
       display: block;
     }
@@ -170,10 +173,14 @@ h5{
       width: 30px;
       height: 30px;
       margin-top: 0px;
+      margin: 5px;
       
     }
    
     .skill-content{
       display: block;
+    }
+    .main-content{
+      background-color: aqua;
     }
 }

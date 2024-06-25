@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -14,9 +15,18 @@ export class HeaderComponent {
     event.preventDefault()
    
     const navLink = document.getElementById('nav_link');
-    navLink.classList.toggle('show');
+    if(navLink){
+      navLink.classList.toggle('show');
+
+    }
 
   }
+  showSidebar(){
+    const navLink = document.getElementById('nav_link');
+    if(navLink){
 
+      navLink.classList.remove('show');
+    }
+  }
 
 }
