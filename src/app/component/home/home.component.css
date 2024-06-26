@@ -3,10 +3,13 @@
     margin: 10px; 
 }
 .homeimg-content img{
-    height: 550px;
+    height: 660px;
     width: 350px;
-    margin-top: -70px;
+    width: 30%;
+    margin-top: -325px;
     padding-top: 0px; 
+    vertical-align: middle;
+    position: absolute;
 }
 .homeimg-content{
    padding: 0px 100px;
@@ -18,7 +21,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center !important;
-    margin: 60px 130px;
+    margin: 60px 230px;
+    border: 2px solid palegreen;
 }
 #start{
   display: none;
@@ -37,9 +41,14 @@
 .skills-icons{
   display: flex;
   margin-top: 80px;
+  justify-content: space-between;
 }
 .skillon-content{
-  margin: auto;
+  margin-left: 30px;
+}
+.skill-content{
+  
+  margin-right: 30px;
 }
 span{
   color: #ff014f;
@@ -50,7 +59,7 @@ h1{
 } 
 .skills-icons img{
   background-color: #212428;
-  padding: 16px 16px;
+  padding: 10px 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   
 }

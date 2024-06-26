@@ -2,3 +2,80 @@ p{
     border: 2px solid palevioletred;
     padding: 20px;
 }
+.visit-content{
+    text-align: center;
+}
+.visit-content h5{
+    color: #f9004d;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    font-weight: 50;
+}
+.visit-content h1{
+    font-size: 57px;
+    margin-top: 7px;
+    font-weight: 750;
+    line-height: 1.2;
+    color: #c4cfde;
+
+}
+.main-content{
+    margin: 90px 230px;
+    padding: 20px; 
+    font-family: "Montserrat", sans-serif;; 
+    border: 2px solid blueviolet;
+}
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 68px;
+}
+.service-content img{
+    width: auto;
+    height: 200px;
+}
+.service-content{
+   
+
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    ;
+    width: 270px;
+    margin: 65px 44px;
+    /* letter-spacing: 1px; */
+    color: #c4cfde;
+    background-color: #212428;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2); 
+}
+.service-content:hover{
+    
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.service-content img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-content img:hover {
+    transform: scale(0.9);
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+.para-content h2{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #c4cfde;
+}
+.contents h5{
+    color: #ff014f;
+    
+}

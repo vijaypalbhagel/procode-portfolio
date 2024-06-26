@@ -3,11 +3,12 @@
     font-family: "Montserrat", sans-serif;
     ;
     width: 270px;
-    margin: 20px;
-    letter-spacing: 1px;
+    margin: 15px 28px;
+    /* letter-spacing: 1px; */
     color: #c4cfde;
     background-color: #212428;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
 }
 
@@ -17,8 +18,9 @@
 }
 
 .main-content {
-    margin: 60px 130px;
-    padding: 20px;
+    margin: 90px 230px;
+    padding: 60px;
+    border: 2px solid yellowgreen;
 }
 
 .div {
@@ -28,13 +30,51 @@
     margin: 6px 0;
 }
 
-.fa-bars {
-    font-size: 2em;
-    color: #ff014f;
 
-}
-
-.fa-solid {
+i{
     font-size: 2em;
-    color: #ff014f;
+    color: #ff014f;  
 }
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+/* .hide {
+    display: none;
+  }
+  .card-content:hover + .hide{
+    display: block;
+    color: #ff014f;
+  } */
+  .features-content{
+    margin-left: 27px;
+  }
+  h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ff014f;
+    font-family: "Montserrat", sans-serif;;
+    
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;;
+    color: #c4cfde;
+  }
+  .card-content:hover {
+    cursor: pointer;
+    .hover-icon{
+        display: block;
+    }
+  }
+  .hover-icon{
+    display: none;
+  }
