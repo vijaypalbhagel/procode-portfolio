@@ -5,7 +5,7 @@
 .homeimg-content img{
     height: 660px;
     width: 350px;
-    width: 30%;
+    width: 20%;
     margin-top: -325px;
     padding-top: 0px; 
     vertical-align: middle;
@@ -17,19 +17,20 @@
    width: fit-content; 
 }
 .main-content{
-    padding: 20px;  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 59px;  
+    display: flex;
     align-items: center !important;
-    margin: 60px 230px;
+    /* margin: 60px 230px; */
+    margin: auto;
     border: 2px solid palegreen;
+    width: 50%;
 }
 #start{
   display: none;
 }
 .home-content{
   padding-left: 30px;
-  padding-right: 92px;
+  /* padding-right: 92px; */
   color: #c4cfde;
   font-family: "Montserrat", sans-serif;;
   margin-top: 80px;

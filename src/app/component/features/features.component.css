@@ -18,9 +18,10 @@
 }
 
 .main-content {
-    margin: 90px 230px;
+    margin: auto;
     padding: 60px;
     border: 2px solid yellowgreen;
+    width: 50%;
 }
 
 .div {

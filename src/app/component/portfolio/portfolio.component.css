@@ -22,10 +22,11 @@ p{
 
 }
 .main-content{
-    margin: 90px 230px;
+    margin: auto;
     padding: 20px; 
     font-family: "Montserrat", sans-serif;; 
     border: 2px solid blueviolet;
+    width: 54%;
 }
 .services-content{
     display: flex;
@@ -50,12 +51,7 @@ p{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.2); 
 }
-.service-content:hover{
-    
-    -ms-transform: scale(0.5); /* IE 9 */
-    -webkit-transform: scale(0.5); /* Safari 3-8 */
-    transform: scale(1.2); 
-}
+
 
 .service-content img {
     transition: transform 0.3s ease-in-out;
@@ -79,3 +75,19 @@ p{
     color: #ff014f;
     
 }
+.para-content:hover {
+    cursor: pointer;
+    .fa-solid {
+        display: block;
+        color: #f9004d;
+    }
+    h2{
+        color: #f9004d;
+    }
+  }
+  .fa-solid {
+    display: none;
+  }
+  /* .para-content{
+    display:inline-flex
+  } */
