@@ -24,7 +24,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center !important;
     border: 2px solid palegreen;
-    margin: 120px auto 0 auto;
+    margin: 50px auto 0 auto;
 }
 #start{
   display: none;
