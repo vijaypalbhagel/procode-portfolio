@@ -8,6 +8,7 @@ p{
     font-family: "Montserrat", sans-serif;; 
     border: 2px solid blueviolet;
     /* width: 55%;   */
+    margin-top: 50px;
 }
 .header-content{
     text-align: center;
