@@ -134,24 +134,3 @@ h3{
 
 
 
-.test_main_container{
-border: 1px solid red;
-padding: 20px;
-margin-top: 120px;
-max-width: 1200px;
-margin: 120px auto 0 auto;
-}
-.test_container{
-  border: 1px solid rgb(23, 206, 93);
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.home{
-  border: 1px solid rgb(89, 22, 182);
-  padding: 20px;
-}
-.homeing{
-  border: 1px solid rgb(218, 29, 190);
-  padding: 20px;
-}
