@@ -1,5 +1,5 @@
 p{
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
     padding: 20px;
 }
 .main-content{
@@ -65,4 +65,5 @@ p{
 }
 .nav-content p:hover{
     color: #f9004d;
+    background-color: rgba(8, 4, 4, 0.304);
 }
