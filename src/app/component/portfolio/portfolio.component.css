@@ -99,16 +99,29 @@ p{
 
   @media (max-width: 850px){
     .main-content{
-      width: 70%;
+      width: 96%;
     }
    
   }
-  @media (max-width: 850px){
-    .service-content{
+  @media (max-width: 1500px){
+    .services-content{
         /* margin: 0px;
         width: 100%; */
-        width: 400px;
+        /* width: 400px;
     margin: 65px -44px;
-    padding: 20px;
+    padding: 20px; */
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* @media (max-width: 1500px){
+    .card-container{
+     grid-template-columns: 1fr 1fr;
+    }
+  } */
+
+  @media (max-width: 800px){
+    .services-content{
+      grid-template-columns: 1fr;
     }
   }

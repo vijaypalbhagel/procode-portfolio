@@ -86,16 +86,22 @@ p{
 
   @media (max-width: 850px) {
     .main-content{
-      width: 100%;
-      padding: 20px;
+      width: 96%;
+      /* padding: 20px; */
     }
      /* .card-content{
       width: 100%;
      }  */
   }
 
-  @media (max-width: 850px){
-    .card-content{
-      width: 70%;
+  @media (max-width: 1500px){
+    .card-container{
+     grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 800px){
+    .card-container{
+      grid-template-columns: 1fr;
     }
   }

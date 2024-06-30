@@ -1,6 +1,6 @@
 p{
     /* border: 2px solid palevioletred; */
-    padding: 20px;
+    /* padding: 20px; */
 }
 .main-content{
     /* margin: auto;
@@ -9,6 +9,7 @@ p{
     border: 2px solid blueviolet;
     /* width: 55%;   */
     margin-top: 50px;
+    /* border-bottom: 5px solid black; */
 }
 .header-content{
     text-align: center;
@@ -24,34 +25,36 @@ p{
     margin: -11px;
 }
 .nav-content {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px; */
     cursor: pointer;
     color: #c4cfde;
     margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.main-bar{
+/* .main-bar{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
+} */
 .education-content p{
     color: #f9004d;
 }
 .education-content h1{
     color: #c4cfde;
 }
-.about-education{
+/* .about-education{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     margin: 10px;
     grid-gap: 20px;
-}
+} */
 .nav-content p{
     /* padding: 40px 100px; */
-    width: 50%;
+    /* width: 50%; */
     border-radius: 5px;
     background-color: #212428;
     padding: 32px;
@@ -67,4 +70,57 @@ p{
 .nav-content p:hover{
     color: #f9004d;
     background-color: rgba(8, 4, 4, 0.304);
+}
+
+.about-education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-top: 0px;
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+}
+.education-resume{
+    background-color: #212428;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.education-maincontent{
+   
+
+}
+.education-container{
+    margin-left: 10px;
+    border-left: 5px solid #212428;
+}
+.job-content p{
+   color:  #f9004d;
+   /* padding-top: 0px; */
+}
+.job-content h1{
+    color: #c4cfde;
+}
+span{
+    margin-left: 80px;
+    color: #f9004d;
+    font-size: small;
+}
+.education-resume h6{
+    color: #c4cfde;
+}
+.education-resume p{
+    color: #c4cfde;
+}
+
+
+@media (max-width: 800px){
+    .nav-content{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:991px){
+    .about-education{
+        grid-template-columns: 1fr;
+    }
 }

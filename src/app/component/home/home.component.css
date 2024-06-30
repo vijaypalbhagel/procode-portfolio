@@ -7,15 +7,15 @@
   max-width: 100%;
 }
 .homeimg-content{
-   padding: 0px 100px;
+   /* padding: 0px 100px; */
    background-color: #212428;
-   width: fit-content; 
-   margin: 0px 49px;
+   /* width: fit-content;  */
+   /* margin: 0px 49px; */
 }
 .main-content{
     /* padding: 20px;   */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 5fr;
     align-items: center !important;
     border: 2px solid palegreen;
     margin: 50px auto 0 auto;
@@ -56,7 +56,7 @@ span{
   color: #ff014f;
 }
 h1{
-  font-size: 50px;
+  font-size: 60px;
   color: white;
 } 
 .skills-icons img{
@@ -90,11 +90,6 @@ h3{
       "home-content";
   }
 }
-
-
-
-
-
 .typing-animation {
   display: inline-block;
   overflow: hidden;
