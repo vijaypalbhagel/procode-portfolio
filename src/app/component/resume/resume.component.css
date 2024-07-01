@@ -63,6 +63,13 @@ p{
     margin: 45px 15px;
     border-radius: 10px;
 }
+.educations-content li{
+    cursor: pointer;
+}
+.educations-content li:hover{
+    color: #f9004d;
+    background-color: rgba(23, 19, 19, 0.995);
+}
 .nav-content p:hover{
     color: #f9004d;
     background-color: rgba(8, 4, 4, 0.304);
