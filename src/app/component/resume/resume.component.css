@@ -24,21 +24,7 @@ p{
     font-size: 60px;
     margin: -11px;
 }
-.nav-content {
-    /* display: flex;
-    justify-content: space-between;
-    padding: 20px; */
-    cursor: pointer;
-    color: #c4cfde;
-    margin-top: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-/* .main-bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-} */
+
 .education-content p{
     color: #f9004d;
 }
@@ -55,17 +41,27 @@ p{
 .nav-content p{
     /* padding: 40px 100px; */
     /* width: 50%; */
-    border-radius: 5px;
+    /* border-radius: 5px;
     background-color: #212428;
     padding: 32px;
     font-size: 20px;
     text-align: center;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.2; */
    
 }
 .educations-content{
     color: #f9004d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    cursor: pointer;
+    color: #c4cfde;
+    background-color: #212428;
+    /* padding: 20px; */
+    /* margin-top: 0px; */
+    margin: 45px 15px;
+    border-radius: 10px;
 }
 .nav-content p:hover{
     color: #f9004d;
@@ -79,6 +75,7 @@ p{
     padding-top: 0px;
     border-bottom: 5px solid black;
     padding-bottom: 20px;
+    /* margin: 20px; */
 }
 .education-resume{
     background-color: #212428;
@@ -87,8 +84,11 @@ p{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .education-maincontent{
-   
+   margin: 20px;
 
+}
+.job-maincontent{
+    margin: 20px;
 }
 .education-container{
     margin-left: 10px;
@@ -112,8 +112,33 @@ span{
 .education-resume p{
     color: #c4cfde;
 }
-
-
+.active{
+    /* border-bottom: 2px solid greenyellow; */
+    transition: ease-in-out .3s;
+   
+}
+.tab-link{
+    padding: 30px;
+}
+progress{
+    width: 100%;
+    
+}
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skill-content p{
+    color: #c4cfde;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.skill-content span{
+    margin-top: 18px;
+    color: #f9004d;
+}
 @media (max-width: 800px){
     .nav-content{
         grid-template-columns: 1fr;
