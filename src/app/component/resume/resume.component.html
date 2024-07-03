@@ -1,34 +1,37 @@
-
 <div class="main-content">
-    < class="resume-content">
+    <div class="resume-content">
         <div class="header-content">
             <h5>7+ YEARS OF EXPERIENCE</h5>
             <h1>My Resume</h1>
         </div>
         <div class="nav-content">
-            
-            <ul class="educations-content">
-              <li (click)="onTabClick('Education')" [class.active]="activeTab == 'Education'" class="tab-link1">Education</li>
-              <li (click)="onTabClick('Professional')" [class.active]="activeTab == 'Professional'"  class="tab-link">Professional Skills</li>
-              <li (click)="onTabClick('Experience')" [class.active]="activeTab == 'Experience'"  class="tab-link">Experience</li>
-              <li (click)="onTabClick('Interview')" [class.active]="activeTab == 'Interview'"  class="tab-link">Interview</li>
-            </ul>
-           
 
-           
-            
-           
+            <ul class="educations-content">
+                <li (click)="onTabClick('Education')" [class.active]="activeTab == 'Education'" class="tab-link1">
+                    Education</li>
+                <li (click)="onTabClick('Professional')" [class.active]="activeTab == 'Professional'" class="tab-link">
+                    Professional Skills</li>
+                <li (click)="onTabClick('Experience')" [class.active]="activeTab == 'Experience'" class="tab-link">
+                    Experience</li>
+                <li (click)="onTabClick('Interview')" [class.active]="activeTab == 'Interview'" class="tab-link">
+                    Interview</li>
+            </ul>
+
+
+
+
+
 
 
         </div>
 
-      
+
 
 
 
 
         <div *ngIf="activeTab == 'Education'" class="about-education">
-           
+
             <div class="education-maincontent">
                 <div class="education-content">
                     <p>2007-2019</p>
@@ -38,20 +41,24 @@
                     <div class="education-resume">
                         <h3>Personal Portfolio April Fools <span>4.30/5</span></h3>
                         <h6>University od DVI(1997-2001)</h6>
-                        <p class="description">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                        <p class="description">The education should be very interactual. Ut tincidunt est ac dolor
+                            aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit
+                            ante.</p>
                     </div>
                     <div class="education-resume">
                         <h3>Examples Of Personal Portfolio <span>4.50/5</span></h3>
                         <h6>College of Studies (2000 - 2002)</h6>
-                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
                     </div>
                     <div class="education-resume">
                         <h3>Tips For Personal Portfolio <span>4.80/5</span></h3>
                         <h6>University of Studies (1997 - 2001)</h6>
-                        <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                        <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
                     </div>
                 </div>
-               
+
             </div>
 
             <div class="job-maincontent">
@@ -62,269 +69,287 @@
 
                 <div class="education-container">
                     <div class="education-resume">
-                        <h3>Diploma in Web Development <span>4.70/5</span> </h3> 
-                        <h6>BSE In CSE (2004 - 2008)</h6> 
-                        <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                      </div>
-                      <div class="education-resume">
-                          <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
-                          <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
-                          <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                      </div>
-                      <div class="education-resume">
-                          <h3>Diploma in Computer Science <span>5.00/5</span></h3>
-                          <h6>Works at Plugin Development (2016 - 2020)</h6>
-                          <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                      </div>
+                        <h3>Diploma in Web Development <span>4.70/5</span> </h3>
+                        <h6>BSE In CSE (2004 - 2008)</h6>
+                        <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales.
+                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
+                        <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
+                        <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Diploma in Computer Science <span>5.00/5</span></h3>
+                        <h6>Works at Plugin Development (2016 - 2020)</h6>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
                 </div>
-               
+
             </div>
-            
-           
+
+
         </div>
 
-         
-         <div *ngIf="activeTab == 'Professional'" class="about-education">
-           
-          <div class="education-maincontent">
-              <div class="education-content">
-            
-                  <p>Features</p>
-                  <h1>Design Skill</h1>
-              </div>
-              <div class="skill-container">
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>PHOTOSHOP</p>
-                    <span>100%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="100" max="100">100%</progress>
 
-                 </div>  
+        <div *ngIf="activeTab == 'Professional'" class="about-education">
 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>FIGMA</p>
-                    <span>95%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="95" max="100">95%</progress>
+            <div class="education-maincontent">
+                <div class="education-content">
 
-                 </div>  
+                    <p>Features</p>
+                    <h1>Design Skill</h1>
+                </div>
+                <div class="skill-container">
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>PHOTOSHOP</p>
+                            <span>100%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="100" max="100">100%</progress>
 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>ADOBE XD</p>
-                    <span>60%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="60" max="100">60%</progress>
+                    </div>
 
-                 </div>  
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>FIGMA</p>
+                            <span>95%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="95" max="100">95%</progress>
 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>ADOBE ILLUSTRATOR</p>
-                    <span>100%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="70" max="100">70%</progress>
+                    </div>
 
-                 </div>  
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>ADOBE XD</p>
+                            <span>60%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="60" max="100">60%</progress>
 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>DESIGN</p>
-                    <span>100%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="90" max="100">90%</progress>
+                    </div>
 
-                 </div>  
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>ADOBE ILLUSTRATOR</p>
+                            <span>100%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="70" max="100">70%</progress>
 
+                    </div>
 
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>DESIGN</p>
+                            <span>100%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="90" max="100">90%</progress>
+
+                    </div>
 
 
-                 
-              </div>
-             
-          </div>
-
-          <div class="job-maincontent">
-              <div class="job-content">
-                  <p>Features</p>
-                  <h1>Development Skill</h1>
-              </div>
-
-              <div class="skill-container">
-                <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>HTML</p>
-                    <span>85%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="85" max="100">85%</progress>
-
-                 </div> 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>CSS</p>
-                    <span>80%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="80" max="100">80%</progress>
-
-                 </div> 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>JAVASCRIPT</p>
-                    <span>90%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="90" max="100">90%</progress>
-
-                 </div> 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>SOFTWARE</p>
-                    <span>75%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="75" max="100">75%</progress>
-
-                 </div> 
-                 <div class="design-maincontent">
-                  <div class="skill-content">
-                    <p>PLUGIN</p>
-                    <span>70%</span>
-                  </div>
-                  <label for="file"></label>
-                  <progress id="file" value="70" max="100">70%</progress>
-
-                 </div> 
 
 
-            
-                
-              </div>
-             
-          </div>
-          
-         
-      </div>
 
-      <div *ngIf="activeTab == 'Experience'" class="about-education">
-           
-        <div class="education-maincontent">
-            <div class="education-content">
-                <p>2007-2019</p>
-                <h1>Education Quality</h1>
+                </div>
+
             </div>
-            <div class="education-container">
-                <div class="education-resume">
-                    <h3>Personal Portfolio April Fools <span>4.30/5</span></h3>
-                    <h6>University od DVI(1997-2001)</h6>
-                    <p class="description">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+
+            <div class="job-maincontent">
+                <div class="job-content">
+                    <p>Features</p>
+                    <h1>Development Skill</h1>
                 </div>
-                <div class="education-resume">
-                    <h3>Examples Of Personal Portfolio <span>4.50/5</span></h3>
-                    <h6>College of Studies (2000 - 2002)</h6>
-                    <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+
+                <div class="skill-container">
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>HTML</p>
+                            <span>85%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="85" max="100">85%</progress>
+
+                    </div>
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>CSS</p>
+                            <span>80%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="80" max="100">80%</progress>
+
+                    </div>
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>JAVASCRIPT</p>
+                            <span>90%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="90" max="100">90%</progress>
+
+                    </div>
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>SOFTWARE</p>
+                            <span>75%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="75" max="100">75%</progress>
+
+                    </div>
+                    <div class="design-maincontent">
+                        <div class="skill-content">
+                            <p>PLUGIN</p>
+                            <span>70%</span>
+                        </div>
+                        <label for="file"></label>
+                        <progress id="file" value="70" max="100">70%</progress>
+
+                    </div>
+
+
+
+
                 </div>
-                <div class="education-resume">
-                    <h3>Tips For Personal Portfolio <span>4.80/5</span></h3>
-                    <h6>University of Studies (1997 - 2001)</h6>
-                    <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                </div>
+
             </div>
-           
+
+
         </div>
 
-        <div class="job-maincontent">
-            <div class="job-content">
-                <p>2007-2010</p>
-                <h1>Job Experience</h1>
+        <div *ngIf="activeTab == 'Experience'" class="about-education">
+
+            <div class="education-maincontent">
+                <div class="education-content">
+                    <p>2007-2019</p>
+                    <h1>Education Quality</h1>
+                </div>
+                <div class="education-container">
+                    <div class="education-resume">
+                        <h3>Personal Portfolio April Fools <span>4.30/5</span></h3>
+                        <h6>University od DVI(1997-2001)</h6>
+                        <p class="description">The education should be very interactual. Ut tincidunt est ac dolor
+                            aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit
+                            ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Examples Of Personal Portfolio <span>4.50/5</span></h3>
+                        <h6>College of Studies (2000 - 2002)</h6>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Tips For Personal Portfolio <span>4.80/5</span></h3>
+                        <h6>University of Studies (1997 - 2001)</h6>
+                        <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="education-container">
-                <div class="education-resume">
-                    <h3>Diploma in Web Development <span>4.70/5</span> </h3> 
-                    <h6>BSE In CSE (2004 - 2008)</h6> 
-                    <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                  </div>
-                  <div class="education-resume">
-                      <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
-                      <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
-                      <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                  </div>
-                  <div class="education-resume">
-                      <h3>Diploma in Computer Science <span>5.00/5</span></h3>
-                      <h6>Works at Plugin Development (2016 - 2020)</h6>
-                      <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                  </div>
+            <div class="job-maincontent">
+                <div class="job-content">
+                    <p>2007-2010</p>
+                    <h1>Job Experience</h1>
+                </div>
+
+                <div class="education-container">
+                    <div class="education-resume">
+                        <h3>Diploma in Web Development <span>4.70/5</span> </h3>
+                        <h6>BSE In CSE (2004 - 2008)</h6>
+                        <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales.
+                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
+                        <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
+                        <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Diploma in Computer Science <span>5.00/5</span></h3>
+                        <h6>Works at Plugin Development (2016 - 2020)</h6>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                </div>
+
             </div>
-           
+
+
         </div>
-        
-       
+
+        <div *ngIf="activeTab == 'Interview'" class="about-education">
+
+            <div class="education-maincontent">
+                <div class="education-content">
+                    <p>2007-2019</p>
+                    <h1>Company Experience</h1>
+                </div>
+                <div class="education-container">
+                    <div class="education-resume">
+                        <h3>Personal Portfolio April Fools <span>4.30/5</span></h3>
+                        <h6>University od DVI(1997-2001)</h6>
+                        <p class="description">The education should be very interactual. Ut tincidunt est ac dolor
+                            aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit
+                            ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Examples Of Personal Portfolio <span>4.50/5</span></h3>
+                        <h6>College of Studies (2000 - 2002)</h6>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Tips For Personal Portfolio <span>4.80/5</span></h3>
+                        <h6>University of Studies (1997 - 2001)</h6>
+                        <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="job-maincontent">
+                <div class="job-content">
+                    <p>2007-2010</p>
+                    <h1>Job Experience</h1>
+                </div>
+
+                <div class="education-container">
+                    <div class="education-resume">
+                        <h3>Diploma in Web Development <span>4.70/5</span> </h3>
+                        <h6>BSE In CSE (2004 - 2008)</h6>
+                        <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales.
+                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
+                        <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
+                        <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                    <div class="education-resume">
+                        <h3>Diploma in Computer Science <span>5.00/5</span></h3>
+                        <h6>Works at Plugin Development (2016 - 2020)</h6>
+                        <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
     </div>
-
-    <div *ngIf="activeTab == 'Interview'" class="about-education">
-           
-      <div class="education-maincontent">
-          <div class="education-content">
-              <p>2007-2019</p>
-              <h1>Company Experience</h1>
-          </div>
-          <div class="education-container">
-              <div class="education-resume">
-                  <h3>Personal Portfolio April Fools <span>4.30/5</span></h3>
-                  <h6>University od DVI(1997-2001)</h6>
-                  <p class="description">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-              </div>
-              <div class="education-resume">
-                  <h3>Examples Of Personal Portfolio <span>4.50/5</span></h3>
-                  <h6>College of Studies (2000 - 2002)</h6>
-                  <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-              </div>
-              <div class="education-resume">
-                  <h3>Tips For Personal Portfolio <span>4.80/5</span></h3>
-                  <h6>University of Studies (1997 - 2001)</h6>
-                  <p class="description">If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-              </div>
-          </div>
-         
-      </div>
-
-      <div class="job-maincontent">
-          <div class="job-content">
-              <p>2007-2010</p>
-              <h1>Job Experience</h1>
-          </div>
-
-          <div class="education-container">
-              <div class="education-resume">
-                  <h3>Diploma in Web Development <span>4.70/5</span> </h3> 
-                  <h6>BSE In CSE (2004 - 2008)</h6> 
-                  <p class="description">Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                </div>
-                <div class="education-resume">
-                    <h3>The Personal Portfolio Mystery <span>4.95/5</span></h3>
-                    <h6>Job at Rainbow-Themes (2008 - 2016)</h6>
-                    <p class="description">Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                </div>
-                <div class="education-resume">
-                    <h3>Diploma in Computer Science <span>5.00/5</span></h3>
-                    <h6>Works at Plugin Development (2016 - 2020)</h6>
-                    <p class="description">Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                </div>
-          </div>
-         
-      </div>
-      
-     
-  </div>
-
-   
 </div>

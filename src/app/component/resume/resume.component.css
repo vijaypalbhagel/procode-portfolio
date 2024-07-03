@@ -1,7 +1,4 @@
-p{
-    /* border: 2px solid palevioletred; */
-    /* padding: 20px; */
-}
+
 .main-content{
     /* margin: auto;
     padding: 20px;  */
@@ -50,7 +47,7 @@ p{
 }
 .educations-content li:hover{
     color: #f9004d;
-    background-color: rgba(23, 19, 19, 0.995);
+    background-color: rgba(47, 53, 57, 0.995);
 }
 .nav-content p:hover{
     color: #f9004d;
@@ -142,5 +139,43 @@ progress{
 @media (max-width:991px){
     .about-education{
         grid-template-columns: 1fr;
+    }
+    .educations-content{
+        display: block;
+        text-align: center;
+        /* padding-left: 0px; */
+        padding: 5px;
+    }
+    .tab-link1{
+        color: #f9004d;
+        padding: 25px;
+        margin-top: 0px;
+        background-color: rgba(47, 53, 57, 0.995);
+    }
+    .header-content h1{
+        font-size: xx-large;
+    }
+    .header-content h5{
+        font-size: medium;
+        margin: 15px;
+    }
+    .education-maincontent{
+        /* background-color: aquamarine; */
+    }
+    .education-content h1{
+        font-size: xx-large;
+    }
+    .education-resume{
+        margin: 15px 0px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .education-maincontent{
+        /* font-size:larger; */
+        margin: 0px;
+    }
+    .education-resume h6{
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
     }
 }
