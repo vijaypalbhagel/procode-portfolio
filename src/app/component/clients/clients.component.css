@@ -1,6 +1,6 @@
 p{
-    /* border: 2px solid palevioletred;
-    padding: 20px; */
+    /* border: 2px solid palevioletred; */
+    padding: 20px;
 }
 .theme-img img{
     width: 40px;
@@ -28,7 +28,7 @@ p{
     padding: 30px;
 }
 .app-maincontent{
-    /* margin: 30px; */
+    margin: 30px;
     border: 2px solid blue;
 }
 .direction-content{
@@ -37,4 +37,8 @@ p{
 .direction-content i{
   padding: 10px;  
   margin: 10px;
+}
+.clients-content p{
+    margin: 0px;
+    padding: 10px;
 }

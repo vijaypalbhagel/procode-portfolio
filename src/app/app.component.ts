@@ -9,6 +9,7 @@ import { PortfolioComponent } from './component/portfolio/portfolio.component';
 import { FeaturesComponent } from './component/features/features.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { ClientsComponent } from './component/clients/clients.component';
+import { PopularclientComponent } from './component/popularclient/popularclient.component';
 import { BlogComponent } from './component/blog/blog.component';
 
 
@@ -26,6 +27,7 @@ import { BlogComponent } from './component/blog/blog.component';
   FeaturesComponent,
   ContactComponent,
   ClientsComponent,
+  PopularclientComponent,
   BlogComponent
 ],
   templateUrl: './app.component.html',
