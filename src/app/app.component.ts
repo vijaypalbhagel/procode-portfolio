@@ -11,6 +11,7 @@ import { ContactComponent } from './component/contact/contact.component';
 import { ClientsComponent } from './component/clients/clients.component';
 import { PopularclientComponent } from './component/popularclient/popularclient.component';
 import { BlogComponent } from './component/blog/blog.component';
+// import { Swiper, SwiperModule } from 'swiper/types';
 
 
 @Component({
@@ -28,7 +29,8 @@ import { BlogComponent } from './component/blog/blog.component';
   ContactComponent,
   ClientsComponent,
   PopularclientComponent,
-  BlogComponent
+  BlogComponent,
+  
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

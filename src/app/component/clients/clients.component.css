@@ -1,5 +1,5 @@
-p{
-    /* border: 2px solid palevioletred; */
+/* p{
+    border: 2px solid palevioletred;
     padding: 20px;
 }
 .theme-img img{
@@ -41,4 +41,8 @@ p{
 .clients-content p{
     margin: 0px;
     padding: 10px;
-}
+} */
+
+/* @import 'swiper/less';
+@import 'swiper/less/navigation';
+@import 'swiper/less/pagination'; */

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { Swiper, SwiperModule } from 'swiper/types';
+
 
 @Component({
   selector: 'app-clients',

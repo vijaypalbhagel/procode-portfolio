@@ -1,4 +1,86 @@
 p{
-    border: 2px solid palevioletred;
-    padding: 20px;
+    /* border: 2px solid palevioletred; */
+    /* padding: 20px; */
+}
+.pricing-content{
+    /* text-align: center; */
+}
+.scrolling-content ul{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: rgb(44 40 40);
+    
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.scrolling-content li:hover{
+    color: #f9004d;
+}
+.scrolling-content  li{
+    /* margin: 10px; */
+    /* background-color: aqua; */
+    padding: 20px 50px;
+}
+.pricing-maincontent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.singlepage-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.check-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+button{
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #f9004d;
+    background-color: rgb(44 40 40); 
+    border-radius: 5px
+}
+.single-content p{
+    padding-top: 0px;
+}
+.para-content p{
+    margin:  40px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 84%;
+    color: #7c838e;
+}
+.check-wrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: #c4cfde;
+}
+.pricing-content h5{
+    color: #f9004d;
+}
+.pricing-content h1{
+    color: #c4cfde;
+    font-size: 40px;
+}
+.about-education{
+
+}
+.order-content button{
+    width: 90%;
+    margin: 10px;
+}
+.notification-content {
+    display: flex;
+    justify-content: center;
+    
+}
+.notification-content p{
+     margin: 10px;
 }

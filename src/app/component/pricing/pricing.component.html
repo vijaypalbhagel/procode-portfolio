@@ -1,1 +1,228 @@
 <p>pricing works!</p>
+<div class="main-content">
+    <div class="pricing-maincontent">
+        <div class="pricing-content">
+            <h5>PRICING</h5>
+            <h1>My Pricing</h1>
+        </div>
+        <div class="scrolling-content">
+           <ul>
+            <li (click)="onTabClick('Education')" [class.active]="activeTab == 'Education'" class="tab-link1">Static</li>
+            <li (click)="onTabClick('Professional')" [class.active]="activeTab == 'Professional'" class="tab-link" >Standard</li>
+            <li (click)="onTabClick('Experience')" [class.active]="activeTab == 'Experience'" class="tab-link">Premium</li>
+           </ul>   
+           <div  *ngIf="activeTab == 'Education'" class="about-education">
+
+
+          
+        
+            <div class="singlepage-content">
+                <div class="single-content">
+                    <h1>Make Your Single Page</h1>
+                    <p>Elementor</p>
+                </div>
+                <div class="cost-content">
+                    <button>$30.00</button>
+                </div>
+            </div>
+            <div class="para-content">
+                
+                <p> All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary </p>
+            </div>
+            <div class="check-content">
+            <div class="check-wrapper">
+                <div class="left-area">
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Single Page Design with Elementor</p> 
+                    </div>
+                   
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Basic Design Customization</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Mobile-Friendly Responsive Design</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Content Upload Assistance</p>
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Limited Design Customization Options</p>  
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Up to 2 Included Plugins/Extensions</p>  
+                    </div>
+                   
+                </div>
+                <div class="right-area">
+
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Multipage Elementor Design</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Collaboration with Figma</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Maintenance Support</p>   
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Additional Content Upload</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Prototyping with Adobe XD</p>  
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Extended Plugin/Extension Support (8 included)</p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="order-content">
+                <button>ORDER NOW <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                
+                <div class="notification-content">
+                    <p><i class="fa-regular fa-clock"></i> 2 Days Delivery</p>
+                    <p><i class="fa-solid fa-wave-square"></i> Unlimited Revision</p>
+                </div>
+                </div>
+        </div>
+        </div> 
+        <div  *ngIf="activeTab == 'Professional'" class="about-education">
+
+
+          
+        <div class="check-content">
+            <div class="singlepage-content">
+                <div class="single-content">
+                    <h1>Design Make this Page</h1>
+                    <p>Elementor</p>
+                </div>
+                <div class="cost-content">
+                    <button>$50.00</button>
+                </div>
+            </div>
+            <div class="para-content">
+                
+                <p> Making this the first true generator on the Internet. It uses a dictionary & plugin Development. </p>
+            </div>
+            <div class="check-content">
+            <div class="check-wrapper">
+                <div class="left-area">
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Single Page Design with Elementor</p> 
+                    </div>
+                   
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Basic Design Customization</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Mobile-Friendly Responsive Design</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Content Upload Assistance</p>
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Limited Design Customization Options</p>  
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Up to 2 Included Plugins/Extensions</p>  
+                    </div>
+                   
+                </div>
+                <div class="right-area">
+
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Multipage Elementor Design</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Collaboration with Figma</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Maintenance Support</p>   
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Additional Content Upload</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Prototyping with Adobe XD</p>  
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Extended Plugin/Extension Support (8 included)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div> 
+   
+        
+        </div>
+        <div  *ngIf="activeTab == 'Experience'" class="about-education">
+
+
+          
+        
+            <div class="singlepage-content">
+                <div class="single-content">
+                    <h1>Customize Your Single Page</h1>
+                    <p>Elementor</p>
+                </div>
+                <div class="cost-content">
+                    <button>$90.00</button>
+                </div>
+            </div>
+            <div class="para-content">
+                
+                <p>  I will install your desire theme and made like Theme demo and customize your single page( homepage)  </p>
+            </div>
+            <div class="check-content">
+            <div class="check-wrapper">
+                <div class="left-area">
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Single Page Design with Elementor</p> 
+                    </div>
+                   
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Basic Design Customization</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Mobile-Friendly Responsive Design</p>
+                    </div>
+                    <div class="check-left">
+                        <p> <span><i class="fa-solid fa-check"></i></span> Content Upload Assistance</p>
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Limited Design Customization Options</p>  
+                    </div>
+                    <div class="check-left">
+                        <p><span><i class="fa-solid fa-check"></i></span> Up to 2 Included Plugins/Extensions</p>  
+                    </div>
+                   
+                </div>
+                <div class="right-area">
+
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Multipage Elementor Design</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Collaboration with Figma</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Maintenance Support</p>   
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Additional Content Upload</p> 
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Design Prototyping with Adobe XD</p>  
+                    </div>
+                    <div class="check-right">
+                        <p><span><i class="fa-solid fa-check"></i></span> Extended Plugin/Extension Support (8 included)</p>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div> 
+    </div>
+    </div>
+</div>
