@@ -2,3 +2,16 @@ p{
     border: 2px solid palevioletred;
     padding: 20px;
 }
+.card-content img{
+    width: 60%;
+    height: 60%;
+}
+.card-content {
+    /* width: 40%; */
+    
+}
+.card-maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid blueviolet;
+}

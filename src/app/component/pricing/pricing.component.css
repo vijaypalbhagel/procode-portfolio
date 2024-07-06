@@ -2,6 +2,9 @@ p{
     /* border: 2px solid palevioletred; */
     /* padding: 20px; */
 }
+.main-content{
+    border: 2px solid greenyellow;
+}
 .pricing-content{
     /* text-align: center; */
 }
@@ -83,4 +86,21 @@ button{
 }
 .notification-content p{
      margin: 10px;
+}
+
+
+
+@media (max-width:991px){
+    .pricing-maincontent{
+        display: block;
+    }
+    .pricing-content{
+        text-align: center;
+    }
+    .scrolling-content ul{
+        padding: 20px 20px;
+    }
+    .scrolling-content li{
+        padding: 0px;
+    }
 }
