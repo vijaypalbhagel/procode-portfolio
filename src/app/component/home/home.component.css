@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 7fr 5fr;
     align-items: center !important;
-    border: 2px solid palegreen;
+   border-bottom: 2px solid black;
     margin: 50px auto 0 auto;
 
     grid-template-areas:"home-content homeimg-content";

@@ -9,6 +9,7 @@
     color: #c4cfde;
     background-color: #212428;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
     
 
 }
@@ -21,7 +22,7 @@
 
 .main-content {
     /* padding: 60px; */
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     
 }
 
@@ -75,13 +76,23 @@ p{
     cursor: pointer;
     .hover-icon{
         display: block;
+        transform: translate(0, -10px);
     }
   }
+
+  
+
   .hover-icon{
     display: none;
   }
 .icon{
   margin: 20px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.icon:hover{
+  top: -10px;
 }
 
   @media (max-width: 850px) {
