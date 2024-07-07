@@ -2,12 +2,14 @@
 .main-container{
     border: 2px solid green;
    
-    background-color: rgb(3 3 3 / 85%);
+    background-color: #212428;
     color: white;
+    position: relative;
+    z-index: -2;
 }
 .container{
     /* border: 2px solid blue; */
-    padding: 40px;
+    /* padding: 40px; */
     
 }
 
