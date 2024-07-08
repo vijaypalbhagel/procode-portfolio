@@ -24,6 +24,7 @@ p{
 .card-maincontent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
     /* border: 2px solid blueviolet; */
 }
 .modal-body{
@@ -87,7 +88,9 @@ img{
 btn-close{
     color: #ff014f;
 }
-
+.contact-bottom{
+    border-bottom: 1px solid black;
+}
 
 @media (max-width: 850px){
     .card-maincontent{

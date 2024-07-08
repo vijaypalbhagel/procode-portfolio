@@ -1,4 +1,4 @@
-<p>popularclient works!</p>
+
 <div class="main-content">
     <div class="popular-maincontent">
       <div class="container">
@@ -9,21 +9,21 @@
         <div class="popular-cotent">
           <div class="menu-content">
             <ul>
-                <li class="menu-diff"><a href="" (click)="all()">All</a></li>
-                <li><a href="" (click)="script()">JavaScript</a></li>
-                <li><a href="" (click)="Design()">Product Design</a></li>
-                <li><a href="" (click)="word()">Wordpress</a></li>
-                <li><a href="" (click)="react()">HTML to React</a></li>
-                <li><a href="" (click)="last()">React To Laravel</a></li>
+                <li class="menu-diff"><a href="" (click)="scriptall($event,1)">All</a></li>
+                <li><a href="" (click)="scriptall($event,2)">JavaScript</a></li>
+                <li><a href="" (click)="scriptall($event,3)">Product Design</a></li>
+                <li><a href="" (click)="scriptall($event,4)">Wordpress</a></li>
+                <li><a href="" (click)="scriptall($event,5)">HTML to React</a></li>
+                <li><a href="" (click)="scriptall($event,6)">React To Laravel</a></li>
             </ul>
           </div>
          <div class="icon-maincontent">
           <div class="icon-content">
-              <div class="icon-contents" *ngIf ="showall">
-                <img src="../../../assets/client1.png" alt="">
+              <div class="icon-contents" >
+                <img  [src]="popularimg"  alt="">
                 <p>marth Smith</p>
               </div>
-              <div class="icon-contents" >
+              <!-- <div class="icon-contents" >
                 <img src="../../../assets/client2.png" alt="">
                 <p>marth Smith</p>  
             </div>
@@ -32,7 +32,7 @@
                 <p>marth Smith</p>
             </div>
           </div>
-          <div class="icon-content" *ngIf="designsvalue">
+          <div class="icon-content">
             <div class="icon-contents">
               <img src="../../../assets/client2.png" alt="">
               <p>marth Smith</p>
@@ -51,14 +51,14 @@
               <img src="../../../assets/client2.png" alt="">
            
               <p>marth Smith</p> </div>
-            <div class="icon-contents" *ngIf="lastvalue">
+            <div class="icon-contents" >
               <img src="../../../assets/client1.png" alt="">
               <p>marth Smith</p>
             </div>
             <div class="icon-contents">
               <img src="../../../assets/client3.png" alt="">
               <p>marth Smith</p>
-            </div>
+            </div> -->
         </div>
     </div>
         </div>

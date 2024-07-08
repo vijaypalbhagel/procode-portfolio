@@ -1,14 +1,20 @@
 p{
-    border: 2px solid palevioletred;
-    padding: 20px;
+    /* border: 2px solid palevioletred; */
+    padding: 20px 10px;
+    color: #c4cfde;
+    font-size: 17px;
+    font-weight: 400;
 }
 .main-footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 80px;
 }
 .inbio-content img{
-    width: 30px;
-    height: 30px;
+    width: 57px;
+    height: 57px;
+    border: 2px solid #595959;
+    border-radius: 50%;
 }
 .inbio-content{
     display: flex;
@@ -21,8 +27,37 @@ p{
 }
 .inbio-img img{
     border: 2px solid #191b1e;;
-    margin-left: 20px;
+    margin-right: 20px;
     /* padding: 20px; */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 60px;
+    padding: 19px;
+}
+.footer-content li{
+    list-style-type: none;
+    color: #c4cfde;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.footer-content h4{
+    margin-left: 29px;
+    color: #ff014f;
+    margin-bottom: 15px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-bottom{
+    border-bottom: 2px solid black;
+}
+.theme-content h6{
+    color: #c4cfde;
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+}
+span{
+    border-radius: 50%;
+    border: 1px solid white;
 }
