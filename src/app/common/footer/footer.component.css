@@ -2,3 +2,27 @@ p{
     border: 2px solid palevioletred;
     padding: 20px;
 }
+.main-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.inbio-content img{
+    width: 30px;
+    height: 30px;
+}
+.inbio-content{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.inbio-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 60px; */
+}
+.inbio-img img{
+    border: 2px solid #191b1e;;
+    margin-left: 20px;
+    /* padding: 20px; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60px;
+}

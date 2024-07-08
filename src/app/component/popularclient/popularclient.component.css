@@ -7,6 +7,10 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
 }
+.main-content{
+    margin: 76px 0px;
+    border-bottom: 1px solid black;
+}
 .icon-contents{
     margin: 30px;
     padding: 20px;

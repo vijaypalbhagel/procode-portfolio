@@ -5,7 +5,13 @@ p{
 .card-content img{
     width: 98%;
     height: 60%;
+    transition: transform .2s;
     /* border: 1px solid red; */
+}
+.card-content img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);  
 }
 .card-content {
     /* width: 40%; */
@@ -80,4 +86,12 @@ img{
 }
 btn-close{
     color: #ff014f;
+}
+
+
+@media (max-width: 850px){
+    .card-maincontent{
+        display: block;
+
+    }
 }

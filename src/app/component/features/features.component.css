@@ -25,7 +25,8 @@
 .main-content {
     /* padding: 60px; */
     /* border: 2px solid yellowgreen; */
-    
+    margin: 76px 0px;
+    border-bottom: 1px solid black;
 }
 
 .div {

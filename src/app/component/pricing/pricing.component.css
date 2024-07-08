@@ -4,6 +4,8 @@ p{
 }
 .main-content{
     /* border: 2px solid greenyellow; */
+    margin: 76px 0px;
+    border-bottom: 1px solid black;
 }
 .pricing-content{
     /* text-align: center; */
