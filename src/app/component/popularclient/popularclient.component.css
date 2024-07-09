@@ -96,3 +96,19 @@
     object-fit: contain;
     /* padding: 60px; */
 }
+
+
+.test{
+    height: 100px;
+    width: 400px;
+    border: 1px solid green;
+}
+.slider{
+    height: 70px;
+    margin: 20px;
+    border: 1px solid red;
+
+
+    width: 1200px;
+    position: relative;
+}
