@@ -9,58 +9,41 @@
         <div class="popular-cotent">
           <div class="menu-content">
             <ul>
-                <li class="menu-diff"><a href="" (click)="scriptall($event,1)">All</a></li>
-                <li><a href="" (click)="scriptall($event,2)">JavaScript</a></li>
-                <li><a href="" (click)="scriptall($event,3)">Product Design</a></li>
-                <li><a href="" (click)="scriptall($event,4)">Wordpress</a></li>
-                <li><a href="" (click)="scriptall($event,5)">HTML to React</a></li>
-                <li><a href="" (click)="scriptall($event,6)">React To Laravel</a></li>
+                <li class="menu-diff"><a href="" (click)="showallcards($event)">All</a></li>
+                <li><a href="" (click)="showallcards1($event)">JavaScript</a></li>
+                <li><a href="" (click)="showallcards($event)">Product Design</a></li>
+                <li><a href="" (click)="showallcards3($event)">Wordpress</a></li>
+                <li><a href="" (click)="showallcards4($event)">HTML to React</a></li>
+                <li><a href="" (click)="showallcards5($event)">React To Laravel</a></li>
             </ul>
+           
+
+         
           </div>
+          
+
+          
          <div class="icon-maincontent">
           <div class="icon-content">
               <div class="icon-contents" >
-                <img  [src]="popularimg"  alt="">
-                <p>marth Smith</p>
+                <div class="display-content" *ngIf="displayedCards.length > 0">
+                  <div *ngFor="let card of displayedCards" class="card-container">
+                    <img [src]="card.img" alt="Card image">
+                    <p>{{ populartext}}</p>
+                    <!-- <p>marth Smith</p> -->
+                  </div>
+              
+              
+                
+
+                
+
+               
               </div>
-              <!-- <div class="icon-contents" >
-                <img src="../../../assets/client2.png" alt="">
-                <p>marth Smith</p>  
-            </div>
-              <div class="icon-contents" >
-                <img src="../../../assets/client3.png" alt="">
-                <p>marth Smith</p>
-            </div>
-          </div>
-          <div class="icon-content">
-            <div class="icon-contents">
-              <img src="../../../assets/client2.png" alt="">
-              <p>marth Smith</p>
-            </div>
-            <div class="icon-contents">
-              <img src="../../../assets/client1.png" alt="">
-              <p>marth Smith</p>
-            </div>
-            <div class="icon-contents">
-              <img src="../../../assets/client3 (1).png" alt="">
-              <p>marth Smith</p>
-            </div>
-        </div>
-        <div class="icon-content">
-            <div class="icon-contents">
-              <img src="../../../assets/client2.png" alt="">
-           
-              <p>marth Smith</p> </div>
-            <div class="icon-contents" >
-              <img src="../../../assets/client1.png" alt="">
-              <p>marth Smith</p>
-            </div>
-            <div class="icon-contents">
-              <img src="../../../assets/client3.png" alt="">
-              <p>marth Smith</p>
-            </div> -->
+             
         </div>
     </div>
         </div>
-    </div>
-</div>
+      </div>
+    <!-- </div> -->
+<!-- </div> -->

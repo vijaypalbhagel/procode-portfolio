@@ -12,30 +12,51 @@ import { CommonModule } from '@angular/common';
 export class PopularclientComponent {
  popularimg:any=''
  
+ populartext:any=''
+
+cards = [
+  { img: '../../../assets/client1.png'},
+  { img: '../../../assets/client2.png' },
+  { img: '../../../assets/client3 (1).png' },
+  { img: '../../../assets/client3.png' },
+  { img: '../../../assets/client1.png'},
+  { img: '../../../assets/client3 (1).png' },
+  { img: '../../../assets/client3.png' }
+ 
+];
+displayedCards: any[] =this.cards;
+
+showallcards(event:any){
+  event.preventDefault();
+  this.displayedCards = this.cards;
+  this.populartext='marth Smith'
+}
+showallcards1(event:any) {
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(0, 3);
+  
+}
+
+showallcards2(event:any) {
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(1, 3);
+}
+showallcards3(event:any){
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(2,5)
+}
+showallcards4(event:any){
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(0,1)
+}
+showallcards5(event:any){
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(2,4)
+}
+showallcards6(event:any){
+  event.preventDefault();
+  this.displayedCards = this.cards.slice(0,4)
+}
 
 
-  scriptall(event:any,num:any){
-    console.log(num)
-    event.preventDefault();
- if(num==1){
-  this.popularimg = '../../../assets/client1.png'
-  this.popularimg = '../../../assets/client2.png'
-  this.popularimg ='../../../assets/client3 (1).png'
- }
- else if(num==2){
-  this.popularimg = '../../../assets/client3.png'
- }
- else if(num==3){
-  this.popularimg = '../../../assets/client1.png'
-  this.popularimg = '../../../assets/client2.png'
- }
- else if(num==4){
-  this.popularimg ='../../../assets/client3 (1).png'
- }
- else if(num==5){
-  this.popularimg = '../../../assets/client2.png'
- }else if(num==6){
-  this.popularimg = '../../../assets/client1.png'
- }
-  }
 }
