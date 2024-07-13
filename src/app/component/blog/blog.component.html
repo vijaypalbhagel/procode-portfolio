@@ -1,131 +1,97 @@
-
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
-
-
 <div class="main-content">
-    <div class="blog-maincontent">
-        <div class="blog-content">
-            <h5>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h5>
-            <h1>My Blog</h1>
-        </div>
-       
+  <div class="blog-maincontent">
+    <div class="blog-content">
+      <h5>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h5>
+      <h1>My Blog</h1>
     </div>
-   
 
+  </div>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container mt-3">
 
-
-
-        </div>
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-       
-          
-          <div class="container mt-3">
-         
-        <div class="card-maincontent">
-            <div class="card-content" >
-                <img src="../../../assets/blog-01.webp" (click)="openModal(1)" alt="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">  
-                <div class="para-content">
-                 <p>CANADA <span> <i class="fa-regular fa-clock"></i> 2 min read</span></p>
-                </div> 
-                <h1 class="description">T-shirt Design is the part of design</h1>
-             </div>
-
-
-
-            <div class="card-content">
-                <img src="../../../assets/blog-02.webp" (click)="openModal(2)" alt="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">  
-                <div class="para-content">
-                 <p>CANADA <span> <i class="fa-regular fa-clock"></i>2 min read</span></p>
-                </div> 
-                <h1 class="description">T-shirt Design is the part of design</h1>
-             </div>
-         
-          
-
-          <div class="card-content">
-            <img src="../../../assets/blog-03.webp" (click)="openModal(3)" alt="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">  
-            <div class="para-content">
-             <p>CANADA <span> <i class="fa-regular fa-clock"></i> 2 min read</span></p>
-            </div> 
-            <h1 class="description">T-shirt Design is the part of design</h1>
-         </div>
-        </div>
+  <div class="card-maincontent">
+    <div class="card-content">
+      <img src="../../../assets/blog-01.webp" (click)="openModal(1)" alt="" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#myModal">
+      <div class="para-content">
+        <p>CANADA <span> <i class="fa-regular fa-clock"></i> 2 min read</span></p>
+      </div>
+      <h1 class="description">T-shirt Design is the part of design</h1>
     </div>
-          <!-- The Modal -->
-          <div class="modal" id="myModal">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-          
-                <!-- Modal Header -->
-                <div class="modal-header">  
-                  <h4 class="modal-title">Modal Heading</h4>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-          
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <div class="modal-img">
-                        <img [src]="modalImage" alt="">
-                    </div>
 
-                    <div class="modal-brief">
-                        <p>{{modelDate}}</p>
-                        <div class="modal-explain">
-                            <h1>{{modalheading}}</h1>
-                            <p> {{modalparagraph}}  </p>
-                        </div>
-                       
-                       
-                        <div class="form-content">
-                            <h2>Leave a Reply</h2>
-                            <div class="leave-content">
-                                <div class="leave1-content">
-                            <input type="text" placeholder="Name"> <br>
-                            <input type="text" placeholder="Email"> <br>
-                            <input type="text" placeholder="Website"> <br>
-                        </div>
-                        <div class="text-content">
-                           
-                            <textarea name="" id="" cols="30" rows="15" placeholder="Comment" ></textarea> <br>
-                        </div>
-                        </div>
-                        </div>
-                        <button>SUBMIT NOW</button>
 
-                    </div>
-                 
-                </div>
-          
-                <!-- Modal footer -->
-                <!-- <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div> -->
-          
+
+    <div class="card-content">
+      <img src="../../../assets/blog-02.webp" (click)="openModal(2)" alt="" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#myModal">
+      <div class="para-content">
+        <p>CANADA <span> <i class="fa-regular fa-clock"></i> 2 min read</span></p>
+      </div>
+      <h1 class="description">T-shirt Design is the part of design</h1>
+    </div>
+
+
+
+    <div class="card-content">
+      <img src="../../../assets/blog-03.webp" (click)="openModal(3)" alt="" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#myModal">
+      <div class="para-content">
+        <p>CANADA <span> <i class="fa-regular fa-clock"></i> 2 min read</span></p>
+      </div>
+      <h1 class="description">T-shirt Design is the part of design</h1>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+
+      <div class="modal-body">
+        <div class="modal-img">
+          <img [src]="modalImage" alt="">
+        </div>
+
+        <div class="modal-brief">
+          <p>{{modelDate}}</p>
+          <div class="modal-explain">
+            <h1>{{modalheading}}</h1>
+            <p> {{modalparagraph}} </p>
+          </div>
+
+
+          <div class="form-content">
+            <h2>Leave a Reply</h2>
+            <div class="leave-content">
+              <div class="leave1-content">
+                <input type="text" placeholder="Name"> <br>
+                <input type="text" placeholder="Email"> <br>
+                <input type="text" placeholder="Website"> <br>
+              </div>
+              <div class="text-content">
+
+                <textarea name="" id="" cols="30" rows="15" placeholder="Comment"></textarea> <br>
               </div>
             </div>
           </div>
-          <div class="contact-bottom"></div>      
-          
+          <button>SUBMIT NOW</button>
 
-            
-            
-            
-          
-          
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+<div class="contact-bottom"></div>

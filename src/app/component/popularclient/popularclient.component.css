@@ -4,7 +4,7 @@
 }
 .popular-cotent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     column-gap: 50px;
 }
 .main-content{
@@ -13,7 +13,7 @@
 }
 
 .menu-content{
-    background-color: rgb(51, 46, 46);
+    background-color: rgb(32, 30, 30);
     margin: 30px 0px;
 }
 .menu-content li a{
@@ -65,8 +65,8 @@
 .icon-contents{
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr; */
-    border: 2px solid rebeccapurple;
-    margin: 10px;
+    /* border: 2px solid rebeccapurple; */
+    /* margin: 10px; */
 }
 /* .icon-contents{
     margin: 30px;
@@ -76,22 +76,28 @@
 } */
 .card-container{
     margin: 10px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    border: 1px solid green;
-    padding: 20px;
+    border: 1px solid rgb(32, 30, 30);
+    background-color: rgb(32, 30, 30);
+    /* padding: 20px; */
+}
+.card-container:hover{
+    background-color: rgb(24, 23, 23);
 }
 .display-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    /* background-color: #113b7f7b; */
     /* padding: 90px; */
     /* width: 250px; */
     
 }
 .display-content img{
     width: 100%;
-    height: auto;
-    min-height: 100px;
+    height: 110px;
+    /* min-height: 100px; */
     /* background-size: cover; */
     object-fit: contain;
     /* padding: 60px; */
@@ -101,7 +107,7 @@
 .test{
     height: 100px;
     width: 400px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .slider{
     height: 70px;
@@ -111,4 +117,19 @@
 
     width: 1200px;
     position: relative;
+}
+.para-card {
+    /* border: 2px solid red; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-top: 2px solid black;
+    
+}
+.card-content{
+    padding: 20px 30px;
+    /* border-bottom: 2px solid black; */
+}
+.para-card:hover{
+    color: #f9004d;
 }

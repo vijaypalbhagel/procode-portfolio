@@ -32,7 +32,7 @@ p{
     background-color: #16181c;
 }
 span{
-    margin-left: 129px;
+    margin-left: 99px;
 }
 .btn btn-primary{
     background-color: none;
@@ -90,6 +90,9 @@ btn-close{
 }
 .contact-bottom{
     border-bottom: 1px solid black;
+}
+.para-content p{
+    color:#ff014f;
 }
 
 @media (max-width: 850px){

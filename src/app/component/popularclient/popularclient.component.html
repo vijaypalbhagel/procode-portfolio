@@ -28,8 +28,13 @@
               <div class="icon-contents" >
                 <div class="display-content" *ngIf="displayedCards.length > 0">
                   <div *ngFor="let card of displayedCards" class="card-container">
+                    <div class="card-content">
                     <img [src]="card.img" alt="Card image">
-                    <p>{{ populartext}}</p>
+                  </div>
+                    <div class="para-card">
+                    <p>{{ card.para}}</p>
+                  </div>
+                
                     <!-- <p>marth Smith</p> -->
                   </div>
               
@@ -50,6 +55,3 @@
 
 
 
-<div class="test">
-  <div class="slider"></div>
-</div>

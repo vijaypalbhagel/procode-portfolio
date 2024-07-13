@@ -82,6 +82,7 @@ p{
     font-weight: 600;
     line-height: 34px;
     color: #c4cfde;
+    display: flex;
 }
 .contents h5{
     color: #ff014f;
@@ -119,7 +120,7 @@ p{
         /* width: 400px;
     margin: 65px -44px;
     padding: 20px; */
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     }
   }
 

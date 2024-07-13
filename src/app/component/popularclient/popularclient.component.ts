@@ -15,13 +15,13 @@ export class PopularclientComponent {
  populartext:any=''
 
 cards = [
-  { img: '../../../assets/client1.png'},
-  { img: '../../../assets/client2.png' },
-  { img: '../../../assets/client3 (1).png' },
-  { img: '../../../assets/client3.png' },
-  { img: '../../../assets/client1.png'},
-  { img: '../../../assets/client3 (1).png' },
-  { img: '../../../assets/client3.png' }
+  { img: '../../../assets/client1.png', para:'Marth Smith'},
+  { img: '../../../assets/client2.png', para:'Sumith Saha'},
+  { img: '../../../assets/client3 (1).png', para:'John Due'},
+  { img: '../../../assets/client3.png', para:'Jara Sultana' },
+  { img: '../../../assets/client1.png', para:'Sr Director'},
+  { img: '../../../assets/client3 (1).png', para:'Janen Jara' },
+  { img: '../../../assets/client3.png', para:'marth smith' }
  
 ];
 displayedCards: any[] =this.cards;

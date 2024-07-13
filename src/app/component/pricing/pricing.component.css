@@ -50,6 +50,9 @@ button{
     background-color: rgb(44 40 40); 
     border-radius: 5px
 }
+.order-content button:hover{
+    background-color: rgb(20, 20, 20);
+}
 .single-content p{
     padding-top: 0px;
 }

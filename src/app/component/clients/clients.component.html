@@ -1,17 +1,54 @@
-<!-- 
 
-  <swiper
-      [slidesPerView]="1"
-      [spaceBetween]="10"
+
+
+
+
+  <div class="slideshow-container">
+    <div class="client-content">
+      <h5>WHAT CLIENTS SAY</h5>
+      <h1>Testimonial</h1>
+    </div>
+    <div class="mySlides fade" *ngFor="let slide of slides; let i = index" [ngStyle]="{'display': slideIndex === i + 1 ? 'block' : 'none'}">
+      <div class="numbertext">{{i + 1}} / {{slides.length}}</div>
+      <!-- <div> -->
+        <div class="main-slides">
+      <div class="slide-content">
+        <div class="slide-img">
+      <img [src]="slide.image" style="width:100%">
+    </div>
+    <div class="theme-content">
+      <div class="text">{{slide.caption}}</div>
+      <h1>{{slide.content}}</h1>
+      <div class="para-content">{{slide.name}}</div>
+    </div>
       
-      [navigation]="true"
-      [pagination]="{ clickable: true }"
+    </div>
+    <div class="slide-contents">
+      <div class="arrow-slides">
+        <img [src]="slide.img" style="width:40%">
+
+        <div class="arrow-content">
+        <a class="prev" (click)="plusSlides(-1)">❮</a>
+        <a class="next" (click)="plusSlides(1)">❯</a>
+        </div>
      
-    >
-      <ng-template swiperSlide>Slide 1</ng-template>
-      <ng-template swiperSlide>Slide 2</ng-template>
-      <ng-template swiperSlide>Slide 3</ng-template>
-      <ng-template swiperSlide>Slide 4</ng-template>
-      <ng-template swiperSlide>Slide 5</ng-template>
-      <ng-template swiperSlide>Slide 6</ng-template>
-    </swiper> -->
+      </div>
+      
+      <div class="slide-container">
+      <div class="text">{{slide.app}}</div>
+      <div class="para-content">{{slide.upwork}}</div>
+        <p class="description-content">{{slide.para}}</p>
+      </div>
+    </div>
+  </div>
+    <!-- </div> -->
+  </div>
+</div>
+ 
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" *ngFor="let slide of slides; let i = index" [class.active]="slideIndex === i + 1" (click)="currentSlide(i + 1)"></span> 
+  </div>
+
+
